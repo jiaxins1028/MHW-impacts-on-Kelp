@@ -1,3 +1,8 @@
+## The dataset initially recorded 122 approximately 500 species but lacked entries for absent species in specific quadrats; 
+## it only 123 included species that were present. To refine this, we inserted zero values for species not 124 recorded in particular sites and years, 
+## including those observed at the same sites in other 125 years. 
+## After modifying the dataset, we verified its quality with the NRMN team.
+
 library(ggplot2)
 library(plyr)
 library(reshape2)
@@ -22,7 +27,6 @@ alg.rls<-read.csv("kelp/ep_m3_isq.csv") #import seaweed data
 alg.rls <- mutate(alg.rls,percentage=round(total/50*100,2))  
 str(alg.rls) #RLS data
 
-MI.atrc<- alg.rls %>% filter(program =="ATRC") #Filter just the ATRC data
 #convert characters to factors
 MI.atrc$location<-as.factor(MI.atrc$location)
 MI.atrc$area<-as.factor(MI.atrc$area)
