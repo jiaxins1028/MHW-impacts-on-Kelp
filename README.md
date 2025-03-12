@@ -10,6 +10,7 @@ Data and Code for the research of the relationship between marine heatwave (MHW)
 | Occurrence distribution of Ecklonia radiata | Ocean Biodiversity Information System (OBIS). Data access from https://github.com/iobis/robis |
 
 ## Data files
+| File | Description |
 |-----:|---------------|
 | er_atrc_id.csv | Dataset of Ecklonia radiata under Australian Temperate Reef Collaboration at survey_id level after quality control. The identical survey_id represents a survey conducted on the same transect.  |
 | er_3pop_site.csv | Dataset of Ecklonia radiata under averaged at site level in Jurien, Jervis Bay, and Maria Island |
