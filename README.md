@@ -4,7 +4,7 @@ Data and Code for the research of the relationship between marine heatwave (MHW)
 
 | Data | Source |
 |-----:|---------------|
-| Reef monitoring kelp cover | Australia’s National Reef Monitoring Network. Instruction: https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/catalog.search#/metadata/ec424e4f-0f55-41a5-a3f2-726bc4541947 |
+| Reef monitoring kelp cover | Australia’s National Reef Monitoring Network. Raw data and instructions can be accessed from https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/catalog.search#/metadata/ec424e4f-0f55-41a5-a3f2-726bc4541947 |
 | Sea surface temperature | High Resolution NOAA Optimum Interpolation 1/4 Degree Daily SST (OISST) Analysis, Version 2. https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00844/html |
 | Thermal performance of Ecklonia radiata | Wernberg et al. (2016) and Britton et al. (2024) |
 | Occurrence distribution of Ecklonia radiata | Ocean Biodiversity Information System (OBIS). Data access from https://github.com/iobis/robis |
